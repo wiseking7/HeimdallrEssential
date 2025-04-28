@@ -9,12 +9,12 @@
 - [ ] 1.1. Properties 폴더
     - [ ] 1.1.1. geometries.json
     - [ ] 1.1.2. images.yaml
-- [ ] 2.1 Geometies 폴더
-    - [ ] 2.1.1 GeometryItem.cs
-    - [ ] 2.1.2 GeometryRoot.cs
-    - [ ] 2.1.3 GeometryContainer.cs
-    - [ ] 2.1.4 GeometryConverter.cs
-    - [ ] 2.1.5 GeometryData.cs
+- [x] 2.1 Geometies 폴더
+    - [x] 2.1.1 GeometryItem.cs
+    - [x] 2.1.2 GeometryRoot.cs
+    - [x] 2.1.3 GeometryContainer.cs
+    - [x] 2.1.4 GeometryConverter.cs
+    - [x] 2.1.5 GeometryData.cs
 - [ ] 3.1 Images 폴더
     - [ ] 3.1.1 ImageContainer.cs
     - [ ] 3.1.2 ImageConverter.cs
