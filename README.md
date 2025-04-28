@@ -8,6 +8,15 @@
     - [ ] 1.1.1. geometries.yaml
     - [ ] 1.1.2. images.yaml
 - [ ] 2.1 Geometies 폴더
+    - [ ] 2.1.1 GeometryContainer.cs
+    - [ ] 2.1.2 GeometryConverter.cs
+    - [ ] 2.1.3 GeometryData.cs
+    - [ ] 2.1.4 GeometryItem.cs
+    - [ ] 2.1.5 GeometryRoot.cs
 - [ ] 3.1 Images 폴더
-
+    - [ ] 3.1.1 ImageContainer.cs
+    - [ ] 3.1.2 ImageConverter.cs
+    - [ ] 3.1.3 ImageData.cs
+    - [ ] 3.1.4 ImageItem.cs
+    - [ ] 3.1.5 ImageRoot.cs
 
