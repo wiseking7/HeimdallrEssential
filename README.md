@@ -7,7 +7,7 @@
   #### Nuget 패키지 -> Newtonsoft.json(13.0.3)
   #### YamlDotnet.NetCore (1.0.0)
 - [ ] 1.1. Properties 폴더
-    - [ ] 1.1.1. geometries.json
+    - [x] 1.1.1. geometries.json
     - [ ] 1.1.2. images.yaml
 - [x] 2.1 Geometies 폴더
     - [x] 2.1.1 GeometryItem.cs
