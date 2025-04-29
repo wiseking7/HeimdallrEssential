@@ -148,6 +148,7 @@ public class GeometryData
   public static string MenuDown => GeometryConverter.GetData();
   public static string Cardsplayingspademultipleoutlin => GeometryConverter.GetData();
   public static string Broadcast => GeometryConverter.GetData();
+  public static string Bug => GeometryConverter.GetData();
 }
 
 
