@@ -9,16 +9,21 @@
 
   <ItemGroup>
     <None Remove="Properties\Resources\geometries.json" />
+    <None Remove="Properties\Resources\images.yaml" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources\geometries.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources\images.yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="YamlDotNet.NetCore" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

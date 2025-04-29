@@ -5,7 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Heimdallr.WPF.WPF.Controls;
+namespace Heimdallr.WPF.Global.WPF.Controls;
 
 
 public enum IconMode
@@ -76,7 +76,7 @@ public class HeimdallrIcon : ContentControl
   private static void IconPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
   {
     HeimdallrIcon heimdallrIcon = (HeimdallrIcon)d;
-    string geometryData = Heimdallr.Desing.Geometies.GeometryConverter.GetData(heimdallrIcon.Icon.ToString());
+    string geometryData = Desing.Geometies.GeometryConverter.GetData(heimdallrIcon.Icon.ToString());
 
     heimdallrIcon.Data = Geometry.Parse(geometryData);
     heimdallrIcon.Mode = IconMode.Icon;
@@ -99,7 +99,7 @@ public class HeimdallrIcon : ContentControl
     HeimdallrIcon heimdallrIcon = (HeimdallrIcon)d;
     try
     {
-      string base64 = Heimdallr.Desing.Images.ImageConverter.GetData(heimdallrIcon.Image.ToString());
+      string base64 = Desing.Images.ImageConverter.GetData(heimdallrIcon.Image.ToString());
 
       byte[] binaryData = Convert.FromBase64String(base64);
 
