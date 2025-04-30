@@ -7,25 +7,27 @@
     <Setter Property="Background" Value="Transparent" />
     <Setter Property="Width" Value="35" />
     <Setter Property="Height" Value="35" />
-    <Setter Property="Margin" Value="0" />
+    <Setter Property="Margin" Value="0 0 10 0" />
+    <Setter Property="Cursor" Value="Hand" />
+    <Setter Property="ToolTip" Value="CLOSE" />
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="{x:Type ctrls:CloseButton}">
           <Border Background="{TemplateBinding Background}">
             <ctrls:HeimdallrIcon
-              Width="16"
-              Height="16"
+              Width="20"
+              Height="20"
               Fill="{TemplateBinding Foreground}"
               Icon="Power" />
           </Border>
           <ControlTemplate.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-              <Setter Property="Background" Value="#547792" />
-              <Setter Property="Foreground" Value="#ECEFCA" />
+              <Setter Property="Background" Value="Transparent" />
+              <Setter Property="Foreground" Value="#FFFFF8E1" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-              <Setter Property="Background" Value="#547792" />
-              <Setter Property="Foreground" Value="#ECEFCA" />
+              <Setter Property="Background" Value="Transparent" />
+              <Setter Property="Foreground" Value="#FFFF204E" />
             </Trigger>
           </ControlTemplate.Triggers>
         </ControlTemplate>

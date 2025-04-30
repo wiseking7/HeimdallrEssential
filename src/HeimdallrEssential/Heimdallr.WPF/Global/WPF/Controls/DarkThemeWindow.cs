@@ -171,11 +171,20 @@ public class DarkThemeWindow : HeimdallrWindow
 
     this.AllowsTransparency = true;
     this.WindowStyle = WindowStyle.None;
+    this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
-    this.StateChanged += (s, e) =>
+    // 이벤트 핸들러 등록 StateChanged 이벤트는 창의 상태가 변경될 때 발생하는 이벤트
+    // WindowState.Normal – 기본 상태, WindowState.Minimized – 최소화, WindowState.Maximized – 최대화
+    this.StateChanged += DarkThemeWindow_StateChanged;
+
+  }
+
+  private void DarkThemeWindow_StateChanged(object? sender, EventArgs e)
+  {
+    if (maximBtn != null)
     {
-      maximBtn!.IsMaximize = !maximBtn.IsMaximize;
-    };
+      maximBtn.IsMaximize = this.WindowState == WindowState.Maximized;
+    }
   }
 
   /// <summary>
@@ -208,8 +217,6 @@ public class DarkThemeWindow : HeimdallrWindow
     {
       bar.MouseDown += WindowDragMove;
     }
-
-    maximBtn!.IsMaximize = this.WindowState == WindowState.Maximized;
 
     // 여기 BlurEffect 처리 추가
     if (this.Template.FindName("PART_Dimming", this) is UIElement dimmingElement)

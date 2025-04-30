@@ -8,6 +8,8 @@
     <Setter Property="Width" Value="35" />
     <Setter Property="Height" Value="35" />
     <Setter Property="Margin" Value="0" />
+    <Setter Property="Cursor" Value="Hand" />
+    <Setter Property="ToolTip" Value="MIN" />
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="{x:Type ctrls:MinimizeButton}">
@@ -20,11 +22,11 @@
           </Border>
           <ControlTemplate.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-              <Setter Property="Background" Value="#547792" />
-              <Setter Property="Foreground" Value="#ECEFCA" />
+              <Setter Property="Background" Value="Transparent" />
+              <Setter Property="Foreground" Value="#FFFFFFFF" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-              <Setter Property="Background" Value="#547792" />
+              <Setter Property="Background" Value="Transparent" />
               <Setter Property="Foreground" Value="#ECEFCA" />
             </Trigger>
           </ControlTemplate.Triggers>
