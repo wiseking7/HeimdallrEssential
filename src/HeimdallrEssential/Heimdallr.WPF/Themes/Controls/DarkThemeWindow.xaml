@@ -69,7 +69,7 @@
               <Setter TargetName="PART_Dimming" Property="Visibility" Value="Visible" />
               <Setter Property="Effect">
                 <Setter.Value>
-                  <BlurEffect KernelType="Gaussian" Radius="{Binding RelativeSource={RelativeSource AncestorType=ctrls:DarkThemeWindow}, Path=DimmingOpacity}" />
+                  <BlurEffect Radius="5" />
                 </Setter.Value>
               </Setter>
             </Trigger>

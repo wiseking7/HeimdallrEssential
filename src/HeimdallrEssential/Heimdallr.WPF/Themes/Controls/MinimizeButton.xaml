@@ -3,29 +3,29 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:ctrls="clr-namespace:Heimdallr.WPF.Global.WPF.Controls">
 
-  <Style TargetType="{x:Type ctrls:CloseButton}">
+  <Style TargetType="{x:Type ctrls:MinimizeButton}">
     <Setter Property="Background" Value="Transparent" />
     <Setter Property="Width" Value="35" />
     <Setter Property="Height" Value="35" />
     <Setter Property="Margin" Value="0" />
     <Setter Property="Template">
       <Setter.Value>
-        <ControlTemplate TargetType="{x:Type ctrls:CloseButton}">
+        <ControlTemplate TargetType="{x:Type ctrls:MinimizeButton}">
           <Border Background="{TemplateBinding Background}">
             <ctrls:HeimdallrIcon
               Width="16"
               Height="16"
               Fill="{TemplateBinding Foreground}"
-              Image="PowerBlue" />
+              Icon="Minimize" />
           </Border>
           <ControlTemplate.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-              <Setter Property="Background" Value="#E04343" />
-              <Setter Property="Foreground" Value="#FFFFFF" />
+              <Setter Property="Background" Value="#547792" />
+              <Setter Property="Foreground" Value="#ECEFCA" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-              <Setter Property="Background" Value="#B43838" />
-              <Setter Property="Foreground" Value="#FFFFFF" />
+              <Setter Property="Background" Value="#547792" />
+              <Setter Property="Foreground" Value="#ECEFCA" />
             </Trigger>
           </ControlTemplate.Triggers>
         </ControlTemplate>

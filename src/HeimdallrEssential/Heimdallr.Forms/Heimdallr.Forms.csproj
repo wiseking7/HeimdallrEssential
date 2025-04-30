@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Heimdallr.Desing\Heimdallr.Desing.csproj" />
-    <ProjectReference Include="..\Heimdallr.Forms\Heimdallr.Forms.csproj" />
+    <Folder Include="Local\ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Heimdallr.WPF\Heimdallr.WPF.csproj" />
   </ItemGroup>
 

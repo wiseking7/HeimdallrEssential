@@ -20,12 +20,12 @@
           </Border>
           <ControlTemplate.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-              <Setter Property="Background" Value="#E04343" />
-              <Setter Property="Foreground" Value="#FFFFFF" />
+              <Setter Property="Background" Value="#547792" />
+              <Setter Property="Foreground" Value="#ECEFCA" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-              <Setter Property="Background" Value="#B43838" />
-              <Setter Property="Foreground" Value="#FFFFFF" />
+              <Setter Property="Background" Value="#547792" />
+              <Setter Property="Foreground" Value="#ECEFCA" />
             </Trigger>
           </ControlTemplate.Triggers>
         </ControlTemplate>
