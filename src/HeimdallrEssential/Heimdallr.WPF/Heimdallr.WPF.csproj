@@ -5,8 +5,31 @@
 	<Nullable>enable</Nullable>
 	<UseWPF>true</UseWPF>
 	<ImplicitUsings>enable</ImplicitUsings>
-	</PropertyGroup>
 
+	<!-- NuGet 패키지 정보-->
+
+	<!-- GeneratePackageOnBuild 속성을 추가하면 빌드 시 자동으로 .nupkg 파일이 생성-->
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+	<!-- 필요 시 버전 조절 -->
+	<Version>1.1.1</Version>
+
+	<!-- NuGet 패키지 메타데이터에 들어가는 작성자 정보입니다.-->
+	<Authors>Heimdallr</Authors>
+	<Product>Heimdallr WPF UI Toolkit</Product>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>Heimdalle,wpf</PackageTags>
+	<Description>Custom WPF MVVM Framework with Theming and UI Controls</Description>
+	<SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+	<!-- NuGet 패키지를 볼 때, "Project Site"로 연결되는 링크-->
+	<RepositoryUrl>https://github.com/wiseking7/HeimdallrEssential</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/wiseking7/HeimdallrEssential</PackageProjectUrl>
+	<PackageCopyright>© 2025 Heimdallr</PackageCopyright>
+	</PropertyGroup>
+	
 	<ItemGroup>
 	  <None Remove="Resources\heimdall.ico" />
 	</ItemGroup>
