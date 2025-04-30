@@ -4,7 +4,12 @@
   xmlns:ctrls="clr-namespace:Heimdallr.WPF.Global.WPF.Controls">
 
   <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/HeimdallrRegion.xaml" />
     <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/HeimdallrIcon.xaml" />
+    <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/CloseButton.xaml" />
+    <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/MaximizeButton.xaml" />
+    <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/MinimizeButton.xaml" />
+    <ResourceDictionary Source="/Heimdallr.WPF;component/Themes/Controls/DarkThemeWindow.xaml" />
   </ResourceDictionary.MergedDictionaries>
 
 </ResourceDictionary>
