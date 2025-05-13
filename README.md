@@ -8,8 +8,8 @@
 ### Newtonsoft.json (13.0.3) 
 ### YamDotNet.NetCore (1.0.0)
 - [x] 1.1 Properties 폴더
-    - [x] 1.1.1 geometries.json
-    - [x] 1.1.2 images.yaml
+  - [x] 1.1.1 geometries.json
+  - [x] 1.1.2 images.yaml
 - [x] 1.2 Geometies [Folder] -> Geometry 를 변환
   - [x] 1.2.1 GeometryContainer.cs
   - [x] 1.2.2 GeometryConverter.cs
@@ -25,7 +25,7 @@
        
 ## Heimdallr.Forms [라이브러리 프로젝트]
 - [x] 1.1. Properties [Folder]
-    - [x] 1.1.1. AssemblyInfo.cs
+  - [x] 1.1.1. AssemblyInfo.cs
 - [x] 1.2 Local [Folder]
   - [x] 1.2.1 ViewModel [Folder] ManWindowViewModel.cs 적용
 - [x] 1.3 Themes [Folder]
@@ -38,56 +38,69 @@
 
 ## Heimdallr.WPF [라이브러리 프로젝트]
 - [x] 1.1 Properties [Folder]
-    - [x] 1.1.1 AssemblyInfo.cs
+  - [x] 1.1.1 AssemblyInfo.cs
 - [x] 1.2 Events [Folder]
-    - [x] 1.2.1 SwitchLanguagePubsub.cs
-    - [x] 1.2.2 SwitchThemePubsub.cs
+  - [x] 1.2.1 SwitchLanguagePubsub.cs
+  - [x] 1.2.2 SwitchThemePubsub.cs
 - [x] 1.3 Global [Folder]
-  - [x] 1.3.1 Animation [Folder]
-    - [x] 1.3.1.1 ColorItem.cs
-    - [x] 1.3.1.2 DoubleItem.cs
-    - [x] 1.3.1.3 ThicknessItem.cs
+  - [x] 1.3.01 Animation [Folder]
+    - [x] 1.3.01.01 ColorItem.cs
+    - [x] 1.3.01.02 DoubleItem.cs
+    - [x] 1.3.01.03 ThicknessItem.cs
  - [x] 1.3.2 Composition [Folder]
-    - [x] 1.3.2.1 AutoWireManager.cs
-    - [x] 1.3.2.2 BaseResourceInitializer.cs
-    - [x] 1.3.2.3 ContentManager.cs
-    - [x] 1.3.2.4 DimmingManager.cs
-    - [x] 1.3.2.5 ResourceManager.cs
+    - [x] 1.3.02.01 AutoWireManager.cs
+    - [x] 1.3.02.02 BaseResourceInitializer.cs
+    - [x] 1.3.02.03 ContentManager.cs
+    - [x] 1.3.02.04 DimmingManager.cs
+    - [x] 1.3.02.05 ResourceManager.cs
   - [x] 1.3.3 Converters [Folder]
-    - [x] 1.3.3.01 BaseValueConverter.cs [제네릭클래스 T 생성자를 가져야함, MrakupExtension XAML 에서 사용할 수있도록 확장 기능]
-    - [x] 1.3.3.02 BooleanToVisibilityConverter.cs [bool 값을 Visibility로 변환하기 위한 ValueConverter]
-    - [x] 1.3.3.03 BoolToColorConverter.cs [True/False 값에 따라 색상을 반환]
-    - [x] 1.3.3.04 ComparisonConverter.cs [CheckBox, RadioButton, ComboBox, ListBox 등 선택 상태를 비교 기반으로 관리]
-    - [x] 1.3.3.05 ComparisonMultiConverter.cs [다중 값(MultiBinding) 비교를 위한 컨버터]
-    - [x] 1.3.3.06 DateFormatConverter.cs [날짜 형식 지정 변환기 yyyy-MM-dd]
-    - [x] 1.3.3.07 EnumToTextConverter.cs [Enum 값을 문자열로 변환]
-    - [x] 1.3.3.08 HelperConverter.cs [여러 개의 소스 값을 변환해 하나의 타겟 값으로 변경]
-    - [x] 1.3.3.09 IndexToNumberConverter.cs [ListView, ListBox, ComboBox, WrapPanel 등에서 특정 아이템에 번호 매김]
-    - [x] 1.3.3.10 InverseComparisonConverter.cs [어떤 항목이 선택되지 않았을 때만 체크되도록]
-    - [x] 1.3.3.11 MultiBooleanToVisibilityConverter.cs [다중 값 bool 가시성 변환기]
-    - [x] 1.3.3.12 NullableBoolToTextConverter.cs [bool? (nullable bool)을 "예", "아니오", "모름" 등의 문자열로 변환]
-    - [x] 1.3.3.13 NullableIntConverter.cs [TextBox 에 Int 기본값 0 을 빈공간으로 처리]
-    - [x] 1.3.3.14 NumberCommaConverter.cs [숫자를 콤마 표기 천단위]
-    - [x] 1.3.3.15 PasswordToVisibilityConverter.cs [비밀번호 입력이나 특정 값의 상태에 따라 Visibility 값을 반환]
-    - [x] 1.3.3.16 MobileNumberConverter.cs [휴대폰 번호로 변환]
-    - [x] 1.3.3.17 ResourceBinding.cs [XAML에서 ResourceBinding을 적용할 때, 리소스 키와 대상 속성을 연결하는 역할]
-    - [x] 1.3.3.18 StringToVisibilityConverter.cs [문자열이 비어 있는지 여부에 따라 Visibility를 반환]
-    - [x] 1.3.3.19 ValidatingBorderBrushConverter.cs [Border 색상 변환 HexCode]
-    - [x] 1.3.3.20 ValidatingBorderThicknessConverter.cs [Thickness 두께 변환 ]
-    - [x] 1.3.3.21
-    - [x] 1.3.3.22
-    - [x] 1.3.3.23
-    - [x] 1.3.3.24
-    - [x] 1.3.3.25
-    - [x] 1.3.3.26
-    - [x] 1.3.3.27
-    - [x] 1.3.3.28
-    - [x] 1.3.3.29
-    - [x] 1.3.3.30
-    - [x] 1.3.3.31
-    - [x] 1.3.3.32
-    - [x] 1.3.3.33
-    - [x] 1.3.3.34
+    - [x] 1.3.03.01 BaseValueConverter.cs [제네릭클래스 T 생성자를 가져야함, MrakupExtension XAML 에서 사용할 수있도록 확장 기능]
+    - [x] 1.3.03.02 BooleanToVisibilityConverter.cs [bool 값을 Visibility로 변환하기 위한 ValueConverter]
+    - [x] 1.3.03.03 BoolToColorConverter.cs [True/False 값에 따라 색상을 반환]
+    - [x] 1.3.03.04 ComparisonConverter.cs [CheckBox, RadioButton, ComboBox, ListBox 등 선택 상태를 비교 기반으로 관리]
+    - [x] 1.3.03.05 ComparisonMultiConverter.cs [다중 값(MultiBinding) 비교를 위한 컨버터]
+    - [x] 1.3.03.06 DateFormatConverter.cs [날짜 형식 지정 변환기 yyyy-MM-dd]
+    - [x] 1.3.03.07 EnumToTextConverter.cs [Enum 값을 문자열로 변환]
+    - [x] 1.3.03.08 HelperConverter.cs [여러 개의 소스 값을 변환해 하나의 타겟 값으로 변경]
+    - [x] 1.3.03.09 IndexToNumberConverter.cs [ListView, ListBox, ComboBox, WrapPanel 등에서 특정 아이템에 번호 매김]
+    - [x] 1.3.03.10 InverseComparisonConverter.cs [어떤 항목이 선택되지 않았을 때만 체크되도록]
+    - [x] 1.3.03.11 MultiBooleanToVisibilityConverter.cs [다중 값 bool 가시성 변환기]
+    - [x] 1.3.03.12 NullableBoolToTextConverter.cs [bool? (nullable bool)을 "예", "아니오", "모름" 등의 문자열로 변환]
+    - [x] 1.3.03.13 NullableIntConverter.cs [TextBox 에 Int 기본값 0 을 빈공간으로 처리]
+    - [x] 1.3.03.14 NumberCommaConverter.cs [숫자를 콤마 표기 천단위]
+    - [x] 1.3.03.15 PasswordToVisibilityConverter.cs [비밀번호 입력이나 특정 값의 상태에 따라 Visibility 값을 반환]
+    - [x] 1.3.03.16 MobileNumberConverter.cs [휴대폰 번호로 변환]
+    - [x] 1.3.03.17 ResourceBinding.cs [XAML에서 ResourceBinding을 적용할 때, 리소스 키와 대상 속성을 연결하는 역할]
+    - [x] 1.3.03.18 StringToVisibilityConverter.cs [문자열이 비어 있는지 여부에 따라 Visibility를 반환]
+    - [x] 1.3.03.19 ValidatingBorderBrushConverter.cs [Border 색상 변환 HexCode]
+    - [x] 1.3.03.20 ValidatingBorderThicknessConverter.cs [Thickness 두께 변환 ]
+- [x] 1.3.4 Enums [Folder]
+    - [x] 1.3.04.01 EasingFunctionBaseMode.cs
+    - [x] 1.3.04.02 JustifyEnum.cs
+- [x] 1.3.5 Extensions [Folder]
+    - [x] 1.3.05.01 AnimationExtensions.cs
+    - [x] 1.3.05.02 DependencyExtensions.cs
+    - [x] 1.3.05.03 EnumExtensions.cs
+- [x] 1.3.6 Interfaces [Folder]
+    - [x] 1.3.06.01 IEventHub.cs [Prism PubSubEvent 시스템의 추상화 컴포넌트 간 강한 결합 없이 메시지를 주고받기 위해 활용]
+    - [x] 1.3.06.02 IResourceManager.cs [아무 멤버가 없는 인터페이스지만, 특정 타입을 구분하는 데 사용]
+    - [x] 1.3.06.03 IThemeManager.cs [아무 멤버가 없는 인터페이스지만, 특정 타입을 구분하는 데 사용]
+    - [x] 1.3.06.04 IViewable.cs [View(UserControl, Window, Page) UI 요소에 접근]
+    - [x] 1.3.06.05 IViewInitializable.cs [MVVM 아키텍처에서 ViewModel이 View와 연결되었을 때 실행될 초기화 작업]
+    - [x] 1.3.06.06 IViewLoadable.cs [ViewModel이 View의 Loaded 이벤트와 연결되었을 때 실행할 후처리 로직]
+- [x] 1.3.7 Location [Folder]
+    - [x] 1.3.07.01 ViewModelLocationScenario.cs [MVVM 패턴에서 ViewModel을 View에 연결하기 위한 시나리오 정의]
+    - [x] 1.3.07.02 ViewModelLocatorCollection.cs [MVVM 패턴의 View와 ViewModel 간의 자동 연결(Locator) 등록]
+    - [x] 1.3.07.03 ViewModelLocatorItem.cs [ View와 ViewModel 간의 연결 관계를 정의하는 단일 매핑 항목]
+- [x] 1.3.8 Interfaces [Folder]
+    - [x] 1.3.08.01 FontFamilyUnit.cs [폰트 설정을 구성하고 외부 YAML 파일과 매핑되도록 설계]
+    - [x] 1.3.08.02 FontPack.cs [YamlMember 폰트변경]
+    - [x] 1.3.08.03 LanguagePack.cs [YamlMember 언어변경]
+    - [x] 1.3.08.04 LanguageUnit.cs [YamlMember 다국어 지원 기능을 구성]
+    - [x] 1.3.08.05 SolidColorBrushUnit.cs [YAML 파일에서 black:이라는 키가 있으면, 이 값을 Black 속성에 매핑합니다]
+    - [x] 1.3.08.06 ThemeModel.cs [테마와 관련된 정보를 담고 있는 모델 클래스로, 주로 테마 관리 시스템에서 사용]
+    - [x] 1.3.08.07 ThemePack.cs [YamlMember 테미색상 키] 
+    - [x] 1.3.08.08 ThemeRoot.cs [YamlMember 테마, 폰트, 언어]
     - [x] 1.3.3.35
     - [x] 1.3.3.36
     - [x] 1.3.3.37
