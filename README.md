@@ -5,8 +5,8 @@
 - [x] 1.2 Starter.cs
 
 ## Heimdallr.Desing [라이브러리 프로젝트]
-### Newtonsoft.json (13.0.3) 
-### YamDotNet.NetCore (1.0.0)
+  ### Newtonsoft.json (13.0.3) 
+  ### YamDotNet.NetCore (1.0.0)
 - [x] 1.1 Properties [Forder]
   - [x] 1.1.1 AssembleyInfo.cs
 - [x] 1.2 Local [Forder] 
