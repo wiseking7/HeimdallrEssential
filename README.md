@@ -47,13 +47,13 @@
     - [x] 1.3.01.01 ColorItem.cs
     - [x] 1.3.01.02 DoubleItem.cs
     - [x] 1.3.01.03 ThicknessItem.cs
- - [x] 1.3.2 Composition [Folder]
+ - [x] 1.3.02 Composition [Folder]
     - [x] 1.3.02.01 AutoWireManager.cs
     - [x] 1.3.02.02 BaseResourceInitializer.cs
     - [x] 1.3.02.03 ContentManager.cs
     - [x] 1.3.02.04 DimmingManager.cs
     - [x] 1.3.02.05 ResourceManager.cs
-  - [x] 1.3.3 Converters [Folder]
+  - [x] 1.3.03 Converters [Folder]
     - [x] 1.3.03.01 BaseValueConverter.cs [제네릭클래스 T 생성자를 가져야함, MrakupExtension XAML 에서 사용할 수있도록 확장 기능]
     - [x] 1.3.03.02 BooleanToVisibilityConverter.cs [bool 값을 Visibility로 변환하기 위한 ValueConverter]
     - [x] 1.3.03.03 BoolToColorConverter.cs [True/False 값에 따라 색상을 반환]
@@ -74,25 +74,25 @@
     - [x] 1.3.03.18 StringToVisibilityConverter.cs [문자열이 비어 있는지 여부에 따라 Visibility를 반환]
     - [x] 1.3.03.19 ValidatingBorderBrushConverter.cs [Border 색상 변환 HexCode]
     - [x] 1.3.03.20 ValidatingBorderThicknessConverter.cs [Thickness 두께 변환 ]
-- [x] 1.3.4 Enums [Folder]
+- [x] 1.3.04 Enums [Folder]
     - [x] 1.3.04.01 EasingFunctionBaseMode.cs
     - [x] 1.3.04.02 JustifyEnum.cs
-- [x] 1.3.5 Extensions [Folder]
+- [x] 1.3.05 Extensions [Folder]
     - [x] 1.3.05.01 AnimationExtensions.cs
     - [x] 1.3.05.02 DependencyExtensions.cs
     - [x] 1.3.05.03 EnumExtensions.cs
-- [x] 1.3.6 Interfaces [Folder]
+- [x] 1.3.06 Interfaces [Folder]
     - [x] 1.3.06.01 IEventHub.cs [Prism PubSubEvent 시스템의 추상화 컴포넌트 간 강한 결합 없이 메시지를 주고받기 위해 활용]
     - [x] 1.3.06.02 IResourceManager.cs [아무 멤버가 없는 인터페이스지만, 특정 타입을 구분하는 데 사용]
     - [x] 1.3.06.03 IThemeManager.cs [아무 멤버가 없는 인터페이스지만, 특정 타입을 구분하는 데 사용]
     - [x] 1.3.06.04 IViewable.cs [View(UserControl, Window, Page) UI 요소에 접근]
     - [x] 1.3.06.05 IViewInitializable.cs [MVVM 아키텍처에서 ViewModel이 View와 연결되었을 때 실행될 초기화 작업]
     - [x] 1.3.06.06 IViewLoadable.cs [ViewModel이 View의 Loaded 이벤트와 연결되었을 때 실행할 후처리 로직]
-- [x] 1.3.7 Location [Folder]
+- [x] 1.3.07 Location [Folder]
     - [x] 1.3.07.01 ViewModelLocationScenario.cs [MVVM 패턴에서 ViewModel을 View에 연결하기 위한 시나리오 정의]
     - [x] 1.3.07.02 ViewModelLocatorCollection.cs [MVVM 패턴의 View와 ViewModel 간의 자동 연결(Locator) 등록]
-    - [x] 1.3.07.03 ViewModelLocatorItem.cs [ View와 ViewModel 간의 연결 관계를 정의하는 단일 매핑 항목]
-- [x] 1.3.8 Interfaces [Folder]
+    - [x] 1.3.07.03 ViewModelLocatorItem.cs [View와 ViewModel 간의 연결 관계를 정의하는 단일 매핑 항목]
+- [x] 1.3.08 Interfaces [Folder]
     - [x] 1.3.08.01 FontFamilyUnit.cs [폰트 설정을 구성하고 외부 YAML 파일과 매핑되도록 설계]
     - [x] 1.3.08.02 FontPack.cs [YamlMember 폰트변경]
     - [x] 1.3.08.03 LanguagePack.cs [YamlMember 언어변경]
@@ -101,6 +101,13 @@
     - [x] 1.3.08.06 ThemeModel.cs [테마와 관련된 정보를 담고 있는 모델 클래스로, 주로 테마 관리 시스템에서 사용]
     - [x] 1.3.08.07 ThemePack.cs [YamlMember 테미색상 키] 
     - [x] 1.3.08.08 ThemeRoot.cs [YamlMember 테마, 폰트, 언어]
-    - [x] 1.3.3.35
-    - [x] 1.3.3.36
-    - [x] 1.3.3.37
+- [x] 1.3.09 Mvvm [Folder]
+    - [x] 1.3.09.01 ObservableBase.cs [CommunityToolkit.Mvvm.ComponentModel 의 ObservableObject 상속]
+    - [x] 1.3.09.02 ObservableDialog.cs [Prism의 IDialogAware를 구현하여 다이얼로그 제어를 담당]
+    - [x] 1.3.09.03 UseDimmingAttribute.cs [디밍(Dimming) 효과를 사용할지 여부]
+- [x] 1.3.10 Transfer [Folder]
+    - [x] 1.3.10.01 EventAggregatorHub.cs.cs [Prism의 IEventAggregator를 감싸는 유틸리티 클래스]
+- [x] 1.3.11 WPF [Folder]
+    - [x] 1.3.11.01
+    - [x] 1.3.11.02
+    - [x] 1.3.11.03
